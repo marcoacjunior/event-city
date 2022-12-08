@@ -22,7 +22,7 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 @SpringBootTest
 @AutoConfigureMockMvc
 @Transactional
-public class CityControllerIT {
+public class CityControllerIT {  
 
 	@Autowired
 	private MockMvc mockMvc;
@@ -44,7 +44,7 @@ public class CityControllerIT {
 	}
 	
 	@Test
-	public void insertShouldInsertResource() throws Exception {
+	public void insertShouldInsertResource() throws Exception { 
 
 		CityDTO dto = new CityDTO(null, "Recife");
 		String jsonBody = objectMapper.writeValueAsString(dto);
