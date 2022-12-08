@@ -30,7 +30,7 @@ public class EventControllerIT {
 	private ObjectMapper objectMapper;
 	
 	@Test
-	public void updateShouldUpdateResourceWhenIdExists() throws Exception {
+	public void updateShouldUpdateResourceWhenIdExists() throws Exception {   
 
 		long existingId = 1L;
 		
